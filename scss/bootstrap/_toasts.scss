@@ -1,6 +1,6 @@
 .toast {
   max-width: $toast-max-width;
-  overflow: hidden; // cheap rounded corners on nested items
+   // cheap rounded corners on nested items
   font-size: $toast-font-size; // knock it down to 14px
   background-color: $toast-background-color;
   background-clip: padding-box;

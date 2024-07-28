@@ -229,7 +229,6 @@ pre {
   // Reset browser default of `1em` to use `rem`s
   margin-bottom: 1rem;
   // Don't allow content to break outside
-  overflow: auto;
 }
 
 
@@ -255,7 +254,7 @@ img {
 svg {
   // Workaround for the SVG overflow bug in IE10/11 is still required.
   // See https://github.com/twbs/bootstrap/issues/26878
-  overflow: hidden;
+  
   vertical-align: middle;
 }
 
@@ -369,7 +368,6 @@ input[type="month"] {
 }
 
 textarea {
-  overflow: auto; // Remove the default vertical scrollbar in IE.
   // Textareas should really only resize vertically so they don't break their (horizontal) containers.
   resize: vertical;
 }

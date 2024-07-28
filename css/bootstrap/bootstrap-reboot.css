@@ -129,8 +129,7 @@ samp {
 
 pre {
   margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto; }
+  margin-bottom: 1rem;}
 
 figure {
   margin: 0 0 1rem; }
@@ -140,7 +139,7 @@ img {
   border-style: none; }
 
 svg {
-  overflow: hidden;
+  
   vertical-align: middle; }
 
 table {
@@ -211,7 +210,6 @@ input[type="month"] {
   -webkit-appearance: listbox; }
 
 textarea {
-  overflow: auto;
   resize: vertical; }
 
 fieldset {
