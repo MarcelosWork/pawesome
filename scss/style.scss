@@ -38,9 +38,6 @@ $secondary: #207dff;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207dff', endColorstr='#00bd55', GradientType=1 );
 }
 
-html {
-	// overflow-x: hidden;
-}
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -49,7 +46,7 @@ body {
 	font-weight: 400;
 	color: lighten($black,50%);
 	&.menu-show {
-		overflow: hidden;
+		
 		position: fixed;
 		height: 100%;
 		width: 100%;
@@ -272,7 +269,7 @@ h1, h2, h3, h4, h5,
 .searchform{
 	height:46px;
 	border: 1px solid rgba(0,0,0,.05);
-	overflow: hidden;
+	
 	@include border-radius(5px);
 	.form-control{
 		width: calc(100% - 46px);
@@ -728,7 +725,7 @@ h1, h2, h3, h4, h5,
   background-position: top center !important;
   z-index: 0;
   position: relative;
-  overflow: hidden;
+  
   border-radius: 4px;
   &:after{
   	position: absolute;
@@ -801,7 +798,7 @@ h1, h2, h3, h4, h5,
 
 //STAFF
 .staff{
-	overflow: hidden;
+	
 	border-radius: 4px;
 	margin-bottom: 30px;
 	-webkit-box-shadow: 0px 24px 48px -13px rgba(0,0,0,0.05);
@@ -903,7 +900,6 @@ h1, h2, h3, h4, h5,
 	z-index: 0;
 }
 .ftco-counter {
-	overflow-x: hidden;
 	position: relative;
 	padding: 4em 0;
 	background: $primary;
@@ -1016,7 +1012,7 @@ textarea.form-control {
 	border-radius: 4px;
 	margin-bottom: 30px;
 	padding: 0;
-	overflow: hidden;
+	
 	background: $white;
 	-webkit-box-shadow: 0px 24px 48px -13px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0px 24px 48px -13px rgba(0,0,0,0.05);
@@ -1190,7 +1186,7 @@ textarea.form-control {
 	background: #1a1a1a;
 	position: relative;
 	z-index: 0;
-	overflow: hidden;
+	
 	padding: 7em 0;
 	a{
 		color: $primary;
@@ -1558,7 +1554,7 @@ textarea.form-control {
 
 	.myaccordion {
 	  margin: 0 auto;
-	  overflow: hidden;
+	  
 	}
 
 	.myaccordion .card,
@@ -1685,7 +1681,7 @@ textarea.form-control {
 
 //blocks 
 .block-20 {
-	overflow: hidden;
+	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
